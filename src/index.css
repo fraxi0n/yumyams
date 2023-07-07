@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.dice {
+  width: 5rem;
+  height: 5rem;
+  background-color: #FFD700;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: auto;
+}
+
+
+.dice-container {
+  display: "flex";
+  justifyContent: "space-arround";
+  width: 30rem;
+
+
+
+}
