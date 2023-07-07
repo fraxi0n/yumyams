@@ -21,15 +21,17 @@ const sweetLeft = [{ name: "Fondant supreme", left: 10 },
 const App = () => {
 
   const getSweet = () => sweetLeft // TO DO : fetch data 
-  // to do add 50 sweet limit
-
-
 
 
 
 
 
   const [sweetData, setSweetData] = useState(getSweet())
+  // const [sweetLimit, setSweetLimit] = useState(50)    
+  // to do add 50 sweet limit
+
+
+
 
 
   const refreshSweet = () => {
